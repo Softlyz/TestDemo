@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200317 10:42:28.439" rpa="false">
+<suite id="s1" name="Allininternship" source="D:\1111111111\Internship_project\resources\allininternship.robot">
+<test id="s1-t1" name="internshippp">
+<kw name="internshipstest" library="TestVariablesInternships">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:28.734" level="INFO">Opening browser 'Chrome' to base url 'https://docs.google.com/forms/d/e/1FAIpQLSfLhAGykHWMorznS-4ko9YwsipmUhd3u4dWmaiZMORU38aA7g/viewform'.</msg>
+<status status="PASS" starttime="20200317 10:42:28.734" endtime="20200317 10:42:53.938"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200317 10:42:53.938" endtime="20200317 10:42:58.064"></status>
+</kw>
+<status status="PASS" starttime="20200317 10:42:28.733" endtime="20200317 10:42:58.064"></status>
+</kw>
+<kw name="Connect Internships test" library="TestVariablesInternships">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${wordemail}</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:58.067" level="INFO">Typing text 'thungsong159@gmail.com' into text field 'name=emailAddress'.</msg>
+<status status="PASS" starttime="20200317 10:42:58.066" endtime="20200317 10:42:58.429"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${wordstudentid}</arg>
+<arg>${studentid}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:58.430" level="INFO">Typing text '6152300622' into text field 'name=entry.1118571194'.</msg>
+<status status="PASS" starttime="20200317 10:42:58.429" endtime="20200317 10:42:58.597"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${wordMr.name}</arg>
+<arg>${Mr.name}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:58.598" level="INFO">Typing text 'นาย ธิติวุฒิ ภู่พวง' into text field 'name=entry.1602383915'.</msg>
+<status status="PASS" starttime="20200317 10:42:58.597" endtime="20200317 10:42:58.803"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${selectmajor}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:58.803" level="INFO">Clicking element '//*[@id="mG61Hd"]/div/div/div[2]/div[4]/div/div[2]/div/span/div/div[2]/label/div/div[1]/div/div[3]/div'.</msg>
+<status status="PASS" starttime="20200317 10:42:58.803" endtime="20200317 10:42:58.902"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${001}</arg>
+<arg>${1}</arg>
+</arguments>
+<msg timestamp="20200317 10:42:58.902" level="INFO">Typing text 'รู้สึกโอเค ใช้ได้เลยครับ อันที่จริงผมว่าการที่เราจะได้อะไรจากที่ฝึกงานต้องผสมดวง โชคชะตา โอกาส บลา ๆ เข้าไปด้วยนะครับ ถึงจะได้เรียนรู้ในบริษัทที่ทำ ยิ่งเป็นบริษัทที่เค้าถือโปรเจ็คเยอะ ๆ ใหญ่ ๆ แบบบริษัทที่ผมทำเนี้ย ถ้าไม่มีพี่เค้าเข้ามาถามว่า เห้ยน้อง อยากเขียน automated test ป่าว เป็นรึป่าวเงี้ย ถ้าวันนั้นผมปฏิเสธไป ผมว่าผมก็นั่งเอ๋ออยู่ที่ทำงาน 6 เดือน ตอนแรก ๆ ของฝึกงานผมก็ยังพอจะได้ทำงานอยู่นะครับเพราะว่าตอนนั้นในทีมที่ G able site ais ไม่มี tester เลย SA เลยสั่่งงานง่าย ๆ แต่ใช้เวลาทำเป็ฯอาทิตย์ให้ ตอนนั้นก็ยังรู้สึก OK แต่พอหลังจากต้นปีใหม่ก็มี Tester ที่เป็นพนักงานจริง ๆ แต่เค้าเป็นแบบ manual ล้วน ๆ มา กลายเป็นว่าผมว่างงาน นั่งเอ๋อ เรียนรู้ผ่าน Youtube เอา ถามว่ารู้เรื่องมั้ย ก็รู้บ้างไม่รู้บ้าง ถ้าทุกคนสามารถเรียนรู้ได้จาก Youtube ได้หมด ผมว่า โรงเรียน มหาลัยก็ไม่ต้องมีแล้วล่ะมั้งครับ(อันนี้ความคิดผม) แต่ในความน่าเบื่อก็ยังมี Tester ที่เป็น Automated เค้าเข้ามาช่วงกลางเดือนกุมภา เดินมาชวนไปกินข้าว แล้วก็มาถามว่า น้องเขียน Automated เป็นป่าว อยากเขียนมั้ย ผมก็ตอบ อยากเขียนเป็นครับ จบ' into text field 'name=entry.1708085287'.</msg>
+<status status="PASS" starttime="20200317 10:42:58.902" endtime="20200317 10:43:14.929"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${002}</arg>
+<arg>${2}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:14.930" level="INFO">Typing text '1. อย่างน้อยก็ให้เรียนรู้จักความอดทน อดกลั้นต่อหัวหน้างาน ไม่ได้พูดรุนแรงแบบผู้จัดการของเซเว่น(ผม) แต่พูดแต่ล่ะคำ บาดลึกถึงขั่วหัวใจ กระแทก ทำให้กลับไปนอนคิดหลายเอาเท้าก่ายหน้าผากไป สองสามวัน ถ้าอาทิตย์นั้นโดนบ่อย ๆ หน่อย ทั้งอาทิตย์ในหัวก็จะมีคำที่เค้าว่ามา เอาง่าย ๆ ซึมทั้งอาทิตย์ 2.การเรียนรู้ว่าพนักงานบริษัทเป็นอย่างไร คือ เอาจริง ๆ มัน Freedom มากเลยนะครับ (น่าจะเป็นบริษัทผม) คือแบบ ไม่มีตอกบัตร เข้าสาย แต่เลิกตรงเวลา ผมไม่เคยโดนว่าเรื่องเลยสาย เพราะพนักงานคนอื่นสายกว่าผมมาก ๆๆ พี่ที่มาจาก PIMปี 4 มา 10 โมงบ้าง 10 โมงครึ่งบ้าง 11 โมง บ้าง แต่ยังเลิกก่อนผม เค้าไม่มีเคยมาก่อนผมแม้แต่วันเดียวที่ฝึกงานและผมเลิกพร้อมเค้า แค่ 2 วัน นอกนั้นเค้าเลิกก่อนผม (นอกจากผมมีธุระขอกลับก่อน)ตลอดทั้ง ๆ ที่เค้ามาไม่เคยมาก่อนผมแม้แต่วันเดียว ผมเลยรู้สึกว่า ที่บริษัทแห่งนี้ Freedom เรื่องเวลามาก ๆ' into text field 'name=entry.1716963570'.</msg>
+<status status="PASS" starttime="20200317 10:43:14.929" endtime="20200317 10:43:26.422"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${003}</arg>
+<arg>${3}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:26.423" level="INFO">Typing text 'บริษัทที่ผมอยู่เค้าไม่ค่อยกล้าที่จะให้นักศึกษาทำงานร่วมกับของเค้าสักเท่าไหร่ เพราะ กลัวทำไฟล์งานหรือเผลอไปลบงานชองเค้าใน Oracle หรือ PGadmin4 เพราะเคยมีพนักงานเคยไปเผลอไปลบงานของคนในทีม (ฟังเค้าเล่ามาอีกที)' into text field 'name=entry.586321949'.</msg>
+<status status="PASS" starttime="20200317 10:43:26.423" endtime="20200317 10:43:28.314"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${004}</arg>
+<arg>${4}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:28.314" level="INFO">Typing text 'คือการเรียนรู้ผ่านการทำงานกับคนที่ทำงานจริง ๆ บริษัทจริง ๆ โปรเจ็คที่มูลค่าเป็นล้าน ๆ จริง ๆ อันนี้แหละที่ผมว่ามันคือโอกาสของนักศึกษา PIM จริง ๆ ผมว่าอันนี้เป็นที่ตัวผมนะ ถ้าผมมีความรู้มากพอที่จะช่วยเค้าทำงานมากกว่านี้ ผมคิดว่า ผมจะได้เรียนรู้และประสบการณ์จากบริษัทที่ผมทำอยู่อย่างมาก ๆ เพราะที่นี้มีแต่คนเก่ง ๆ แต่ความรู้ของตัวผม (ย้ำนะว่าตัวผมเอง) มันไม่พอ ทำให้ไม่สามารถปะติดปะต่อได้ เวลาเข้าประชุมทีนึง ก็ไปนั่งเอ๋อทีนึง พี่เค้าก็บอกนะว่า ถ้าไม่เข้าใจคำไหน ให้ยกมือถามได้เลย เวลาในการประชุมกินไปทีละ 3-4 ชั่วโมง ถ้าผมยกมือ ผมเชื่อว่าการปรพชุมมี 5 ชั่วโมงขึ้น เพราะความรู้ผมไม่ถึง ทำให้เวลาจะทำงานทีนึง เค้าก็ต้องมาสอนทีนึงแล้วทุกคนที่ทำนั้นมีงานยุ่งมาก ๆ ของตัวเองอยู่แล้ว เค้าคงไม่มาสอนเด็กฝึกงานผมก็เข้าใจ' into text field 'name=entry.448149729'.</msg>
+<status status="PASS" starttime="20200317 10:43:28.314" endtime="20200317 10:43:38.651"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${005}</arg>
+<arg>${5}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:38.652" level="INFO">Typing text 'เพื่อให้ผู้จัดการหรือพี่เลี้ยงเราประเมินได้อ่านความคืบหน้าของตัวเราเองและใช้ในการประเมินของอาจารย์ที่มานิเทศนักศึกษาและไว้ลงเวลาในทำงานและบันทึกเวลาขาดลาของตัวนักศึกษา' into text field 'name=entry.1595629677'.</msg>
+<status status="PASS" starttime="20200317 10:43:38.651" endtime="20200317 10:43:40.065"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${selectroundinternships}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:40.065" level="INFO">Clicking element '//*[@id="mG61Hd"]/div/div/div[2]/div[10]/div/div[2]/div/span/div/div[4]/label/div/div[1]/div/div[3]/div'.</msg>
+<status status="PASS" starttime="20200317 10:43:40.065" endtime="20200317 10:43:40.159"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${006}</arg>
+<arg>${6}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:40.159" level="INFO">Typing text 'สำหรับผมเพราะส่วนใหญ่จะได้ทำงานในรูปแบบเดิม ๆ ซ้ำ ๆ ทำให้การบันทึกเดือนละหรืออาจจะเลื่อมไปบ้างในบางเดือนครั่งถือว่าเหมาะวมสำหรับผม' into text field 'name=entry.837167031'.</msg>
+<status status="PASS" starttime="20200317 10:43:40.159" endtime="20200317 10:43:41.201"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${007}</arg>
+<arg>${7}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:41.202" level="INFO">Typing text 'ดีขึ้น เพราะอย่างน้อยตัวเราก็รู้ว่าตัวเราเองทำอะไรบ้างในแต่ล่ะเดือน' into text field 'name=entry.868393051'.</msg>
+<status status="PASS" starttime="20200317 10:43:41.201" endtime="20200317 10:43:41.688"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${selectmonthinternships}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:41.689" level="INFO">Clicking element '//*[@id="mG61Hd"]/div/div/div[2]/div[13]/div/div[2]/div/span/div/div[3]/label/div/div[1]/div/div[3]/div'.</msg>
+<status status="PASS" starttime="20200317 10:43:41.688" endtime="20200317 10:43:41.777"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${008}</arg>
+<arg>${8}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:41.778" level="INFO">Typing text 'เพราะใน 1 เดือนเราสามารถสรุปรวบยอดออกมา ทำให้เห็นความต่างของแต่ล่ะเดือนได้' into text field 'name=entry.1850484352'.</msg>
+<status status="PASS" starttime="20200317 10:43:41.778" endtime="20200317 10:43:42.361"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${009}</arg>
+<arg>${9}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:42.362" level="INFO">Typing text 'เพื่อใช้ในการบันทึกการทำงานของตัวเราเองและสามารถนำมาเปรียยเทียบกันในแต่ล่ะเดือนได้และสามารถทำให้อาจารย์ที่นิเทศได้รู้ความคืบหน้าของตัวนึกศึกษาอีกด้วย' into text field 'name=entry.1064716829'.</msg>
+<status status="PASS" starttime="20200317 10:43:42.361" endtime="20200317 10:43:43.594"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${010}</arg>
+<arg>${10}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:43.595" level="INFO">Typing text 'ผมกับพี่เลี้ยงแทบจะไม่ได้คุยอะไรกันเลย แต่การแนะนำครั้งแรก ๆ ก็โอเคดีครับ ส่วนใหญ่ผมจะอยู่กับพี่ ๆ ที่เป็น Tester มากกว่า' into text field 'name=entry.1407069473'.</msg>
+<status status="PASS" starttime="20200317 10:43:43.594" endtime="20200317 10:43:44.505"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${011}</arg>
+<arg>${11}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:44.505" level="INFO">Typing text 'การเรียนรู้งานเกี่ยวกับ Project และการแบ่งงานของคนในทีม' into text field 'name=entry.1895220192'.</msg>
+<status status="PASS" starttime="20200317 10:43:44.505" endtime="20200317 10:43:44.920"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${012}</arg>
+<arg>${12}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:44.921" level="INFO">Typing text 'ว่างไปก่อน 1' into text field 'name=entry.1895220192'.</msg>
+<status status="PASS" starttime="20200317 10:43:44.920" endtime="20200317 10:43:45.069"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${013}</arg>
+<arg>${13}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:45.069" level="INFO">Typing text 'ว่างไปก่อน 2' into text field 'name=entry.1493059804'.</msg>
+<status status="PASS" starttime="20200317 10:43:45.069" endtime="20200317 10:43:45.217"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${014}</arg>
+<arg>${14}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:45.217" level="INFO">Typing text 'ว่างไปก่อน 3' into text field 'name=entry.669130040'.</msg>
+<status status="PASS" starttime="20200317 10:43:45.217" endtime="20200317 10:43:45.372"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${015}</arg>
+<arg>${15}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:45.373" level="INFO">Typing text 'ว่างไปก่อน 4' into text field 'name=entry.232978681'.</msg>
+<status status="PASS" starttime="20200317 10:43:45.372" endtime="20200317 10:43:45.522"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${016}</arg>
+<arg>${16}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:45.522" level="INFO">Typing text 'โดยการเรียกพูดคุยกันในห้องตัวต่อตัวและบอกจุดประสงค์ของการทำงาน' into text field 'name=entry.835936401'.</msg>
+<status status="PASS" starttime="20200317 10:43:45.522" endtime="20200317 10:43:45.967"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${017}</arg>
+<arg>${17}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:45.968" level="INFO">Typing text 'โดยการพูดคุยในห้องนิเทศ ให้กำลังใจและถามว่า OK มั้ยลูก อันนี้แหละเป็นคุณค่าต่อตัวนักศึกษาอย่างผม ไม่ต้องมีคำพูดมากมาย แค่นี้ก็เพียงพอ' into text field 'name=entry.1223908551'.</msg>
+<status status="PASS" starttime="20200317 10:43:45.967" endtime="20200317 10:43:47.021"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${018}</arg>
+<arg>${18}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:47.022" level="INFO">Typing text 'ไม่ได้ให้คณะอ่าน เพราะว่า ยังไม่เขียนไม่เสร็จของทุกเดือน' into text field 'name=entry.279410206'.</msg>
+<status status="PASS" starttime="20200317 10:43:47.022" endtime="20200317 10:43:47.436"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${019}</arg>
+<arg>${19}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:47.436" level="INFO">Typing text 'ผมอยากฝึกงานที่ ๆ เค้าต้องการเด็กฝึกงานจริง ๆ และสามารถสอนเด็กฝึกงานปั้นจนเป็นพนักงานจริง ๆ (อันนี้ผมไม่ได้หมายความว่าตัวเราเองมานั่งงอมืองอเท้ารอเค้าสอนอย่างเดียว)แต่บางสิ่งบางอย่างมันต้องการความกระจ่างความชัดเจน การอธิบายเพื่อที่จะสามารถต่อยอดและทำงานต่อไปได้ ผมคิดว่าบริษัทแบบนี้มี แต่ไม่ใช่บริษัทขนาดใหญ่ มีระเบียบจัดและให้เงินเดือนน้อยหรีออาจจะไม่ได้เลย แต่เงินก็เป็นปัจจัยสำคัญในการดำรงชิวิตไหนจะค่าหอ ไหนจะค่าการเดินทาง ได้วันล่ะ 300 ก็ยังดีกว่าไม่ได้สักบาท มันดีกว่ามาก ๆ ผมก็เลยคิดว่า อยากจะอยู่บริษัทตามที่คิดไว้' into text field 'name=entry.1327773887'.</msg>
+<status status="PASS" starttime="20200317 10:43:47.436" endtime="20200317 10:43:53.883"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${020}</arg>
+<arg>${20}</arg>
+</arguments>
+<msg timestamp="20200317 10:43:53.883" level="INFO">Typing text 'สนใจ เพราะว่า เราจะสามารถอ่านและสามารถนำความรู้ที่เพื่อนของเรานั้นได้ไปประสบพบเจอและนำมาหาอ่านบน Internet หรือ หาดูบน Youtube เพราะผมเชื่อว่า แต่ล่ะคนประสบพบเจอรูปแบบการทำวานไม่เหมือนกัน ผมคิดว่าอาจจะเป็นประโยชน์ไม่มากก็น้อยสำหรับนักศึกษาคนอื่น ๆ หรือ ถ้าสามารถนำไปให้รุ่นน้องอ่าน ก็จะสามารถทำให้รุ่นน้องตัดสินการหาที่ฝึกงานได้มากยิ่งขึ้น' into text field 'name=entry.518178481'.</msg>
+<status status="PASS" starttime="20200317 10:43:53.883" endtime="20200317 10:43:57.311"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200317 10:43:57.311" endtime="20200317 10:43:59.494"></status>
+</kw>
+<status status="PASS" starttime="20200317 10:42:58.066" endtime="20200317 10:43:59.494"></status>
+</kw>
+<status status="PASS" starttime="20200317 10:42:28.733" endtime="20200317 10:43:59.495" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200317 10:42:28.441" endtime="20200317 10:43:59.498"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Allininternship">Allininternship</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

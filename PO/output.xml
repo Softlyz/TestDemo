@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200317 09:42:39.609" rpa="false">
+<suite id="s1" name="Internships" source="D:\1111111111\Internship_project\Resources\PO\Internships.robot">
+<test id="s1-t1" name="รูปแบบการประเมิน">
+<kw name="ประเมินการฝึกงาน">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200317 09:42:40.207" level="INFO">Opening browser 'Chrome' to base url 'https://docs.google.com/forms/d/e/1FAIpQLSfLhAGykHWMorznS-4ko9YwsipmUhd3u4dWmaiZMORU38aA7g/viewform'.</msg>
+<status status="PASS" starttime="20200317 09:42:40.207" endtime="20200317 09:42:56.078"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200317 09:43:24.204" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200317 09:43:10.090" endtime="20200317 09:43:24.204"></status>
+</kw>
+<msg timestamp="20200317 09:43:24.204" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<msg timestamp="20200317 09:43:24.228" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+</msg>
+<status status="FAIL" starttime="20200317 09:42:56.078" endtime="20200317 09:43:24.229"></status>
+</kw>
+<status status="FAIL" starttime="20200317 09:42:40.206" endtime="20200317 09:43:24.229"></status>
+</kw>
+<status status="FAIL" starttime="20200317 09:42:40.204" endtime="20200317 09:43:24.281" critical="yes">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+</status>
+</test>
+<status status="FAIL" starttime="20200317 09:42:39.613" endtime="20200317 09:43:24.285"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Internships">Internships</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200317 09:43:24.204" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+</msg>
+</errors>
+</robot>
